@@ -11,7 +11,7 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-    <Nav/><Promo/><Intro1/><Intro2/><Intro3/><Footer/>
+      <Nav /><Promo /><Intro1 /><Intro2 /><Intro3 /><Footer />
     </div>
   );
 }
