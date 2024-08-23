@@ -1,4 +1,7 @@
 import logo from './logo.svg';
+import Header from './components/Header';
+import Main from './components/Main';
+import Sidebar from './components/Sidebar';
 import './App.css';
 import React from 'react';
 import Nav from './components/Nav';
@@ -11,7 +14,9 @@ import Footer from './components/Footer';
 function App() {
   return (
     <div>
-      <Nav /><Promo /><Intro1 /><Intro2 /><Intro3 /><Footer />
+      <Header name="Camila" color="purple" />
+      <Main greet="Gomez" />
+      <Sidebar greet="Hi" />
     </div>
   );
 }
